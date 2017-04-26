@@ -1,6 +1,6 @@
 # npmtest-style-loader
 
-#### test coverage for  [style-loader (v0.16.1)](https://github.com/webpack/style-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-style-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-style-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-style-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-style-loader)
+#### basic test coverage for  [style-loader (v0.16.1)](https://github.com/webpack/style-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-style-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-style-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-style-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-style-loader)
 
 #### style loader module for webpack
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-style-loader/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-style-loader/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-style-loader/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-style-loader/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-style-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-style-loader/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-style-loader/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-style-loader/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-style-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-style-loader/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-style-loader/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-style-loader/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
         "test": "mocha",
         "travis:test": "yarn run test"
     },
-    "version": "0.16.1"
+    "version": "0.16.1",
+    "bin": {}
 }
 ```
 
